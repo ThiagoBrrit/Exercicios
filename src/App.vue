@@ -5,7 +5,7 @@ import Formulario from './components/Formulario.vue';
 import Resultado from './components/Resultado.vue';
 
 const calculadora = reactive({
-  filtro: '',
+  filtro: 'dividindo',
   A: '',
   B: '',
   resultado: '',
@@ -47,5 +47,3 @@ const dividindo = () => {
 
   </div>
 </template>
-
-<style scoped></style>

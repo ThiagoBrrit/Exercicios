@@ -14,10 +14,10 @@
 
             <div class="col-md-2">
                 <select @change="props.selecionarFiltro"  class="form-control">
-                    <option value="somar">Somar</option>
+                    <option value="divisao">Divisão</option>
                     <option value="subtrair">Subtrair</option>
                     <option value="multiplicacao">Multiplicacao</option>
-                    <option value="divisao">Divisão</option>
+                    <option value="somar">Somar</option>
                 </select>
 
             </div>
